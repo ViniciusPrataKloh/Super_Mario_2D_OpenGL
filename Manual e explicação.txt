@@ -1,0 +1,25 @@
+Alunos: Vinícius Prata e Lucas Amorim
+
+Teclas de jogo:
+
+	F1: Eixos de orientação;
+	UP: Pulo;
+	LEFT: Mover Mário para esquerda;
+	RIGHT: Mover Mário para direita;
+
+Explicação:
+
+	Desenho automático:	
+
+	Os objetos do cenário (blocos, montanhas e canos) são feitos automaticamente, através de funções dedicadas. 
+	Cada função recebe dois parâmetros: xPontoA e y PontoA, para determinar o ponto A de cada objeto.
+	Os pontos B, C e D são calculados automaticamente.
+
+	Colisão:
+
+	A colisão é feita através do uso de vetores. Um vetor para direita e outro para esquerda.
+	Há um problema no algoritmo de colisão... A colisão é algo sentimental, começa funcionando e para!
+
+	Céu:
+
+	O degrade do céu é feito através de quatro vértices no topo do cenário, onde a aresta de baixo possui a cor do "clear" e a aresta do topo possui a cor escura.	
